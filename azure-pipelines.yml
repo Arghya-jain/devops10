@@ -23,6 +23,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'devops10/target'
+    PathtoPublish: 'target/*.jar'
     ArtifactName: 'drop'
     publishLocation: 'Container'
